@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous"
+    />
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <link 
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link 
+    rel="stylesheet" 
+    href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>📓  Javascrip quiz! 📓 </title>
+  </head>
+  <div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="page-caption">
+                    <h1 class="page-title">
+                    <img src="./assets/imgs/cooltext435258571717601.gif" alt="Burning letters, POP CULTURE QUIZ!">
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.page-header-->
+<div class="card-section">
+    <div class="container rounded-cicrle">
+        <div class="card-block bg-dark mb30">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <!-- section-title -->
+                    <div class="section-title mb-0">
+                        <body>
+                            <div class="wrapper">
+                                <div class="wrap" id="q1">
+                                    <div class="text-center pb-4">
+                                        <div class="h5 font-weight-bold"><span id="number"> </span>1 of 3 </div>
+                                    </div>
+                                    <div class="h4 font-weight-bold"> 1. Which pairing below was a couple in any season of the hit show "The Office"?</div>
+                                    <div class="pt-4">
+                                        <form> 
+                                            <label class="options">Erin and Pete <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Pam and Jim <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Angela and Dwight <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Jan and Michael <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">All of the above! <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                        </form>
+                                    </div>
+                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary" id="next1">Next <span class="fas fa-arrow-right"></span> </button> </div>
+                                </div>
+                                <div class="wrap" id="q2">
+                                    <div class="text-center pb-4">
+                                        <div class="h5 font-weight-bold"> <span id="number"> </span>2 of 3 </div>
+                                    </div>
+                                    <div class="h4 font-weight-bold"> 2. In the hit show "Parks and Recreation", what is the name of the strong lead who's determination is unbreakable?!</div>
+                                    <div class="pt-4">
+                                        <form> 
+                                            <label class="options">Lester Knumpf <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Leslie Knope <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Lansley Pope <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Lucie Scope <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                        </form>
+                                    </div>
+                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back1"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next2">Next <span class="fas fa-arrow-right"></span> </button> </div>
+                                </div>
+                                <div class="wrap" id="q3">
+                                    <div class="text-center pb-4">
+                                        <div class="h5 font-weight-bold"> <span id="number"> </span>3 of 3 </div>
+                                    </div>
+                                    <div class="h4 font-weight-bold"> 3. What is the full form of CSS?</div>
+                                    <div class="pt-4">
+                                        <form> 
+                                            <label class="options">Rahul Gandhi <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Indira Gandhi <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Narendra Modi <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                            <label class="options">Ram Nath Kovind <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+                                        </form>
+                                    </div>
+                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back2"> <span class="fas fa-arrow-left pr-2"></span>Previous </button> <button class="btn btn-primary" id="next3">Submit </button> </div>
+                                </div>
+                            </div>
+                              <script src="https://kit.fontawesome.com/9687d8ef59.js" crossorigin="anonymous"></script>
+                              <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
+                              integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+                              crossorigin="anonymous"></script>
+                              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+                              integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+                              crossorigin="anonymous"></script>
+                              <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" 
+                              integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" 
+                              crossorigin="anonymous"></script>
+                            <script src="./assets/script.js"></script>
+                          </body>
+                    </div>
+                    <!-- /.section-title -->
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</html>
