@@ -8,7 +8,14 @@ Try out your knowledge on various pop culture TV show questions! See if you've g
 ## Usage
 This is to test the viable pop culture knowledge of your friends, family, or yourself!
 
-### HOME PAGE!
+### Header and Title!!
+![Title and header](/assets/imgs/homepage.png)
+
+### Carousel of shows!!
+![Show Carousel](/assets/imgs/carousel.png)
+
+### Question Panel!!
+![Question Panel](/assets/imgs/questionspanel.png)
 
 ### HIGH SCORES!
 
