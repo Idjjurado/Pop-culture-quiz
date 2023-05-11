@@ -44,6 +44,7 @@ var next14 = document.getElementById('next14')
 var back14 = document.getElementById('back14')
 var next15 = document.getElementById('next15')
 var back15 = document.getElementById('back15')
+
 document.addEventListener('DOMContentLoaded', function () {
 let query = window.matchMedia("(max-width: 767px)");
     if (query.matches) {
@@ -159,14 +160,6 @@ let query = window.matchMedia("(max-width: 767px)");
         q14.style.left = "15px";
         q15.style.left = "650px";
         }
-        // next15.onclick = function () {
-        // q15.style.left = "-650px";
-        // q2.style.left = "15px";
-        // }
-        // back15.onclick = function () {
-        // q1.style.left = "15px";
-        // q2.style.left = "650px";
-        // }
     }
     else {
         next1.onclick = function () {

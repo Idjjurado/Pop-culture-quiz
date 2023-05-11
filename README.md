@@ -1,6 +1,6 @@
 # JavScript quiz! (POP CULTURE QUIZ!)
 
-link: 
+link: https://idjjurado.github.io/JS-coding-quiz/
 
 ## Description
 Try out your knowledge on various pop culture TV show questions! See if you've got the chops and knowledge about some of TV's greatest (more recent) HITS!

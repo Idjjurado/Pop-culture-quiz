@@ -223,7 +223,7 @@ a:focus, a:hover {
     margin-bottom: 60px;
     padding-top: 15px;
     padding-bottom: 40px;
-    background-color: rgb(129, 70, 7);
+    background-image: url(./imgs/popculture.jpg);
 }
 .container {
     border-radius: 20%;
