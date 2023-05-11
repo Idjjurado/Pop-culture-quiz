@@ -51,3 +51,4 @@ function uncheck() {
 var rad = document.getElementById('rd')
 rad.removeAttribute('checked')
 }
+
