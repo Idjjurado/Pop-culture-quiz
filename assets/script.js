@@ -1,3 +1,6 @@
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+
 var starter1 = document.getElementById('starter1');
 var q1 = document.getElementById('q1');
 var q2 = document.getElementById('q2');
@@ -292,4 +295,10 @@ function uncheck() {
 var rad = document.getElementById('rd')
 rad.removeAttribute('checked')
 }
+
+function showResults(){}
+
+
+// on submit, show results
+submitButton.addEventListener('click', showResults);
 
