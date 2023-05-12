@@ -28,7 +28,7 @@
     />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>📓  Pop Culture Quiz! 📓 </title>
   </head>
 
@@ -200,244 +200,62 @@
                     <div class="section-title mb-0">
                         <body>
                             <div class="wrapper tv-background text-white">
-                                <div class="wrap" id="starter1">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold text-white"><span id="number">IT'S QUIZ TIME!! </span> </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold text-center"> TRY YOUR HAND AT POP CULTURE KNOWLEDGE!</div>
-                                    <div class="pt-4 text-center">
-                                        This is all in good fun!
-                                        See how you stack up against others that are wanting to try their hand with Pop Culture knowledge!
-                                    </div>
-                                    <div class="d-flex justify-content-center pt-2"> <button class="btn btn-primary" id="start1">START!<span class="fas fa-arrow-right"></span> </button> </div>
-                                    <img class="office-image img-fluid rounded mx-auto d-block m-t-1" src="./assets/imgs/officedancing.gif" alt="the office dancing scene"/>
-                                </div>
-                                <div class="wrap" id="q1">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold text-white"><span id="number"> </span>1 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 1. Which pairing below was a couple in any season of the hit show "The Office"?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Erin and Pete <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Pam and Jim <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Angela and Dwight <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Jan and Michael <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">All of the above! <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary" id="next1">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q2">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>2 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 2. In the hit show "Parks and Recreation", what is the name of the strong lead who's determination is unbreakable?!</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Lester Knumpf <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Leslie Knope <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Lansley Pope <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Lucie Scope <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back1"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next2">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q3">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>3 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 3. In "Brooklyn Nine-Nine", Jake Peralta has a lot of good friends within the precinct, BUT he has one and only BEST Friend. Who is his "Fancy Bedste Venner"?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Captain Jeffords <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Cheddar the Dog <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Charles Boyle <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Stevie Schillens <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back2"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next3">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q4">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>4 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 4. In the hit show "The Mandalorian" how does one become "the rightful ruler of Mandalore"?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">By democratic means! <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Whoever holds the Darksaber rules Mandalore <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Defeating a mythosaur <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Finding the one true Mandalorian <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back3"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next4">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q5">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>5 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 5. How many seasons did "The Last Man on Earth" have in total?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">12 Seasons <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">1 Season <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">4 Seasons <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">17 Seasons <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back4"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next5">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q6">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>6 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 6. In "Never Have I Ever" who are Devi Vishwakumar's best friends?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Fabiola Torres and Eleanor Wong  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Din Djarin, Bo-Katan Kryze, and Din Grogu <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Winston Bishop, Ron Swanson, and Dexter Morgan <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Amy Santiago and Rosa Diaz <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back5"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next6">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q7">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>7 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 7. In "Dexter" Detective Dexter Morgan has a boat, what is the name of his boat?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Ocean Breeze <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Siren's song  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Narendra Modi <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">The Slice of Life <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back6"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next7">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q8">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>8 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 8. What does Phil Tandy Miller fill the kiddy pool with in "The Last Man on Earth"?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Sausage gravy <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Orange juice <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Margarita mix and tequila <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Water <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back7"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next8">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q9">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>9 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 9. In "Jane the Virgin" what is the name of Jane Villanueva's telenovela superstar Father?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">David Zepeda <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Gonzalo Garcia Vivanco <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Fernando Colunga <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Rogelio de la Vega <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back8"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next9">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q10">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>10 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 10. In "Parks and Recreation" where did April Ludgate end up hiding Ron Swanson's extra house key? </div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">In Councilman Milton's office where the shoeshine stand was moved <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Underneath a large, solid, old tree <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Ron's office <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Leslie's home <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back9"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next10">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q11">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>11 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 11. In "The Office" what is Stanley Hudson's favorite day?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Pretzel Day <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Cinco de Mayo <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Fourth of July <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Father's Day <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back10"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next11">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q12">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>12 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 12. In "New Girl" what Powerhouse Superstar is very pinnacle in assisting Jess say "I love you" to Nick?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Matty Matheson <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Henry Cavill <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Ryan Reynolds <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">PRINCE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back11"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next12">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q13">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>13 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 13. In "The Mandalorian" what is the line that is repeated and an important part of "The Creed"?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">"This is the way..." <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">"May the force be with you" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">"That's what She said" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">"Whoever denied it supplied it" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back12"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next13">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q14">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>14 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 14. In "Brooklyn Nine-Nine?" what does the precinct chant in unison when something positive happens?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">"HOORAH GO TEAM!" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">"NINE NINE!" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">"THEY SHALL KNOW NO FEAR!" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">"UMAI!" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back13"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next14">Next <span class="fas fa-arrow-right"></span> </button> </div>
-                                </div>
-                                <div class="wrap" id="q15">
-                                    <div class="text-center pb-4">
-                                        <div class="h5 font-weight-bold"> <span id="number"> </span>15 of 15 </div>
-                                    </div>
-                                    <div class="h4 font-weight-bold"> 15. In "Parks and Recreation" who does Leslie Knope get married to?</div>
-                                    <div class="pt-4">
-                                        <form> 
-                                            <label class="options">Lester Knumpf <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Ron Swanson <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Adam Scott <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                            <label class="options">Ben Wyatt <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-                                        </form>
-                                    </div>
-                                    <div class="d-flex justify-content-end pt-2"> <button class="btn btn-primary mx-3" id="back14"> <span class="fas fa-arrow-left pr-1"></span>Previous </button> <button class="btn btn-primary" id="next15">Submit </button> </div>
-                                </div>
+                                        <!-- creating a modal for when quiz ends -->
+        <div class="modal-container" id="score-modal">
+            <div class="modal-content-container">
+                <h1>Congratulations, Quiz Completed.</h1>
+                <div class="grade-details">
+                    <p>Attempts : 10</p>
+                    <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                    <p>Right Answers : <span id="right-answers"></span></p>
+                    <p>Grade : <span id="grade-percentage"></span>%</p>
+                    <p ><span id="remarks"></span></p>
+                </div>
+                <div class="modal-button-container">
+                    <button onclick="closeScoreModal()">Continue</button>
+                </div>
+            </div>
+        </div>
+<!-- end of modal of quiz details-->
+        <div class="game-quiz-container">
+            <div class="game-details-container">
+                <h1>Score : <span id="player-score"></span> / 10</h1>
+                <h1> Question : <span id="question-number"></span> / 10</h1>
+            </div>
+            <div class="game-question-container">
+                <h1 id="display-question"></h1>
+            </div>
+            <div class="game-options-container">
+               <div class="modal-container" id="option-modal">
+                    <div class="modal-content-container">
+                         <h1>Please Pick An Option</h1>
+                         <div class="modal-button-container">
+                            <button onclick="closeOptionModal()">Continue</button>
+                        </div>
+                    </div>
+               </div>
+                <span>
+                    <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                    <label for="option-one" class="option" id="option-one-label"></label>
+                </span>
+                <span>
+                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                    <label for="option-two" class="option" id="option-two-label"></label>
+                </span>
+                <span>
+                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                    <label for="option-three" class="option" id="option-three-label"></label>
+                </span>
+                <span>
+                    <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                    <label for="option-four" class="option" id="option-four-label"></label>
+                </span>
+            </div>
+            <div class="next-button-container">
+                <button onclick="handleNextQuestion()">Next Question</button>
+            </div>
+
+        </div>
                             </div>
                         </div>
                     </div>
@@ -456,5 +274,5 @@
         <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" 
         integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" 
         crossorigin="anonymous"></script>
-      <script src="./assets/script.js"></script>
+      <script src="./assets/js/script.js"></script>
 </html>
