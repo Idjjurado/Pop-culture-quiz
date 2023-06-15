@@ -9,7 +9,7 @@ body{
 }
 
 .image-class-header {
-    background-image: url('/assets/imgs/bannerheading.jpg');
+    background-image: url('../imgs/bannerheading.jpg');
     background-size: cover;
     width: 100%;
     height: 400px;
@@ -28,7 +28,7 @@ body{
     margin-bottom: 60px;
     padding-top: 15px;
     padding-bottom: 40px;
-    background-image: url(/assets/imgs/popculture.jpg);
+    background-image: url(../imgs/popculture.jpg);
 }
 .container {
     border-radius: 20%;
