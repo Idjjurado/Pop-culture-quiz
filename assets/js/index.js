@@ -100,7 +100,7 @@
     },
 
     {
-        question: `In "New Girl" what Powerhouse Superstar is very pinnacle in assisting Jess say "I love you" to Nick?`,
+        question: `In "New Girl" what Powerhouse Superstar is very important in assisting Jess say "I love you" to Nick?`,
         optionA: "Matty Matheson",
         optionB: "Henry Cavill",
         optionC: "Ryan Reynolds",
@@ -137,93 +137,93 @@
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: `"Boy have you lost your mind, 'cause I'll help ya find it!" is an iconic line said to which character by Stanley Hudson`,
+        optionA: "Jim Halpert",
+        optionB: "Kelly Kapoor",
+        optionC: "Ryan Howard",
+        optionD: "Bob Vance",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        question: `In the hit show "Dexter" who is considered to be Dexter's best friend?`,
+        optionA: "Angel Batista",
+        optionB: "Deedee",
+        optionC: "Miguel Prado",
+        optionD: "Mr. Hartwell",
         correctOption: "optionA"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        question: `"Me want food!!" was a line that this character leaned into when fans noticed her sudden change of appearance on the show "30 Rock"`,
+        optionA: "Elizabeth Lemon",
+        optionB: "Cecilia Parekh",
+        optionC: "Jenna Maroney",
+        optionD: "Moira Rose",
         correctOption: "optionC"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: `What is the name of David and Patrick's general store from the show "Schitt's Creek"?`,
+        optionA: "Rosebud Apothecary",
+        optionB: "Dave and Patty's",
+        optionC: "Elmdale General",
+        optionD: "Rose Apothecary",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        question: `Who are Devi's main two love interests in the first two seasons of the show "Never Have I Ever"?`,
+        optionA: "Paxton Hall-Yoshida",
+        optionB: "Eleanor Wong",
+        optionC: "Ben Gross",
+        optionD: "A and C",
+        correctOption: "optionD"
+    },
+
+    {
+        question: `In "Jane the Virgin" who's child is Jane actually pregnant with?`,
+        optionA: "Michael Cordero",
+        optionB: "Roman Zazo",
+        optionC: "Rafael Solano",
+        optionD: "Adam Alvaro",
+        correctOption: "optionC"
+    },
+
+    {
+        question: `In the show "Schitt's Creek", what town does Johnny Rose purchase for his son as a joke?`,
+        optionA: "Elmdale",
+        optionB: "Schitt's Creek",
+        optionC: "Springfield",
+        optionD: "Rosetown",
+        correctOption: "optionB"
+    },
+
+    {
+        question: `In the show "Superstore" which two characters have their children on the same day in separate hospitals?`,
+        optionA: "Cheyenne and Dina",
+        optionB: "Amy and Dina",
+        optionC: "Amy and Cheyenne",
+        optionD: "Rose and Cheyenne",
+        correctOption: "optionB"
+    },
+
+    {
+        question: `In the hit show "New Girl" after Jess and her three roomates get back her things from her now ex-boyfriend Spencer, what does Jessica Day say?`,
+        optionA: "Sayonara, Sammy...",
+        optionB: "You better watch it!",
+        optionC: "Suck it Mr. Krabs",
+        optionD: "Not today, Loser",
+        correctOption: "optionC"
+    },
+
+    {
+        question: `In the show "30 Rock" where is Kenneth Parcell from?`,
+        optionA: "Stone Mountain Georgia",
+        optionB: "New York, New York",
+        optionC: "Plano, Texas",
+        optionD: "Colorado Springs, Colorado",
         correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
     }
 
 ]
