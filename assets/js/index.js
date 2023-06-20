@@ -204,7 +204,7 @@
         optionA: "Cheyenne and Dina",
         optionB: "Amy and Dina",
         optionC: "Amy and Cheyenne",
-        optionD: "Rose and Cheyenne",
+        optionD: "Gerusha and Cheyenne",
         correctOption: "optionB"
     },
 
