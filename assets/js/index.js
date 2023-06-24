@@ -391,7 +391,10 @@ function closeOptionModal() {
 
 document.getElementById("option-one")
 .addEventListener("click", 
-    function () {
+function () {
+    let countingDown = document.getElementsByClassName("digits");
+
+    if (countingDown.length < 1) {  
     var counter = {
         square: txt => {
         let cell = document.createElement("div");
@@ -439,11 +442,17 @@ document.getElementById("option-one")
                 target: document.getElementById("demo"),
                 remain: 180,
                 after: () => {alert("Time is up!!");} }); 
-            });
+            } else if (countingDown.length > 0) {
+                
+            }
+        });
 
 document.getElementById("option-two")
 .addEventListener("click", 
-    function () {
+function () {
+    let countingDown = document.getElementsByClassName("digits");
+
+    if (countingDown.length < 1) {  
     var counter = {
         square: txt => {
         let cell = document.createElement("div");
@@ -491,11 +500,17 @@ document.getElementById("option-two")
                 target: document.getElementById("demo"),
                 remain: 180,
                 after: () => {alert("Time is up!!");} }); 
-            });
+            } else if (countingDown.length > 0) {
+                
+            }
+        });
 
 document.getElementById("option-three")
 .addEventListener("click", 
-    function () {
+function () {
+    let countingDown = document.getElementsByClassName("digits");
+
+    if (countingDown.length < 1) {  
     var counter = {
         square: txt => {
         let cell = document.createElement("div");
@@ -543,11 +558,17 @@ document.getElementById("option-three")
                 target: document.getElementById("demo"),
                 remain: 180,
                 after: () => {alert("Time is up!!");} }); 
-            });
+            } else if (countingDown.length > 0) {
+                
+            }
+        });
 
 document.getElementById("option-four")
 .addEventListener("click", 
-    function () {
+function () {
+    let countingDown = document.getElementsByClassName("digits");
+
+    if (countingDown.length < 1) {  
     var counter = {
         square: txt => {
         let cell = document.createElement("div");
@@ -595,4 +616,7 @@ document.getElementById("option-four")
                 target: document.getElementById("demo"),
                 remain: 180,
                 after: () => {alert("Time is up!!");} }); 
-            });
+            } else if (countingDown.length > 0) {
+                
+            }
+        });
