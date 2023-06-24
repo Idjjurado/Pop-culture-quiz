@@ -347,6 +347,8 @@ function unCheckRadioButtons() {
 function handleEndGame() {
     let remark = null
     let remarkColor = null
+    let gradeDetails = document.getElementsByClassName('grade-details')
+    let countingDownend = document.getElementById("demo");
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
@@ -371,6 +373,9 @@ function handleEndGame() {
     document.getElementById('right-answers').innerHTML = playerScore
     document.getElementById('score-modal').style.display = "flex"
 
+    if(gradeDetails.length > 0) {
+        $('.countdown div').remove();
+    }
 }
 
 //closes score modal, resets game and reshuffles questions
@@ -620,3 +625,4 @@ function () {
                 
             }
         });
+
