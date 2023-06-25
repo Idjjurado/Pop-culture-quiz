@@ -348,7 +348,6 @@ function handleEndGame() {
     let remark = null
     let remarkColor = null
     let gradeDetails = document.getElementsByClassName('grade-details')
-    let countingDownend = document.getElementById("demo");
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
