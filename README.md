@@ -15,7 +15,10 @@ This is to test the viable pop culture knowledge of your friends, family, or you
 ![Show Carousel](/assets/imgs/carousel.png)
 
 ### Question Panel!!
-![Question Panel](/assets/imgs/questionspanel.png)
+![Question Panel](/assets/imgs/questions.png)
+
+### High Scores page!
+![High Scores](/assets/imgs/highscores.png)
 
 ### HIGH SCORES!
 
