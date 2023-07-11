@@ -17,10 +17,8 @@ This is to test the viable pop culture knowledge of your friends, family, or you
 ### Question Panel!!
 ![Question Panel](/assets/imgs/questions.png)
 
-### High Scores page!
-![High Scores](/assets/imgs/highscores.png)
-
 ### HIGH SCORES!
+![High scores page](assets/imgs/highscores.png)
 
 These are the main screenshots of how the app should be presented and used!
 
