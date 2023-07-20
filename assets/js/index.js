@@ -228,6 +228,8 @@
 
 ]
 
+const NO_OF_HIGH_SCORES = 5;
+const HIGH_SCORES = 'highScores';
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
 
