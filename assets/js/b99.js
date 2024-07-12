@@ -1,34 +1,34 @@
 //this would be the object shape for storing the questions  
  const questions = [
     {
-        question: `Which pairing below was a couple in any season of the hit show "The Office"?`,
-        optionA: "Erin and Pete",
-        optionB: "Pam and Jim",
-        optionC: "Angela and Dwight",
+        question: `Which pairing below was a couple in any season of the show?`,
+        optionA: "Jake and Amy",
+        optionB: "Captain Holt and Kevin",
+        optionC: "Rosa and Jocelyn",
         optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: `In the hit show "Parks and Recreation", what is the name of the strong lead who's determination is unbreakable?`,
-        optionA: "Lester Knumpf",
-        optionB: "Leslie Knope",
-        optionC: "Lansley Pope",
-        optionD: "Lucie Scope",
+        question: `What is the name of the terrifyingly mysterious detective that rides motorcycles, did ballet, and ALWAYS ALWAYS has a weapon handy?`,
+        optionA: "Jocelyn Price",
+        optionB: "Rosa Diaz",
+        optionC: "Terry Jeffords",
+        optionD: "Charles Boyle",
         correctOption: "optionB"
     },
 
     {
-        question: `In "Brooklyn Nine-Nine", Jake Peralta has a lot of good friends within the precinct, BUT he has one and only BEST Friend. Who is his Fancy Bedste Venner?`,
+        question: `Charles Boyle has a lot of good friends within the precinct, BUT he has one and only BEST Friend. Who is his Fancy Bedste Venner?`,
         optionA: "Captain Jeffords",
         optionB: "Cheddar the Dog",
-        optionC: "Charles Boyle",
+        optionC: "Jake Peralta",
         optionD: "Stevie Schillens",
         correctOption: "optionC"
     },
 
     {
-        question: `In the hit show "The Mandalorian" how does one become the rightful ruler of Mandalore?`,
+        question: `?`,
         optionA: "By Democratic means!",
         optionB: "Whoever holds the Darksaber rules Mandalore",
         optionC: "Defeating a Mythosaur",
